@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  background-color: black;
+}
+.s {
+  margin-bottom: 10rem;
+}
+
+/* nav bar */
+#logo {
+  width: 3em;
+  height: 3em;
+  float: left;
+}
+.nav {
+  margin-top: 2em;
+  display: flow-root;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.nav ul {
+  list-style: none;
+  padding: 1em 0px;
+  float: right;
+}
+li {
+  display: inline;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  padding: 0px 1em;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.about {
+  height: 85vh;
+}
+.content {
+  width: 70%;
+  float: left;
+  margin-top: 9em;
+}
+.content h1 {
+  font-weight: 600;
+}
+.content p {
+  letter-spacing: 0.1rem;
+}
+.img {
+  width: 30%;
+  float: right;
+  margin-top: 3em;
+}
+.hero {
+  border-radius: 2em;
+  border: none;
+  margin-top: 2em;
+  width: 15em;
+  height: 40vh;
+  margin-left: 3em;
+  box-shadow: 0 14px 18px 0 rgb(0 0 0 / 20%), 0 16px 20px 0 rgb(0 0 0 / 19%);
+}
+.mobile {
+  display: none;
+}
+
+.progress div {
+  background-color: greenyellow;
+}
+
+.education .row {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.education .row div {
+  border-left: 5px solid greenyellow;
+}
+
+@media screen and (max-width: 990px) {
+  .content p {
+    margin-right: 20px;
+    text-align: justify;
+  }
+  .hero {
+    width: 10em;
+    height: 35vh;
+    margin-top: 6em;
+    float: right;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .nav ul {
+    width: 50%;
+    display: inline-flex;
+    float: unset;
+    margin-left: 10px;
+  }
+  .nav li {
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+    padding: 0px 0.5em;
+  }
+  .content {
+    width: 100%;
+    margin-top: 0;
+  }
+  .hero {
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 50px;
+    border-radius: 150%;
+    width: 100%;
+  }
+  .web {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  .img {
+    margin-top: 0;
+    width: 100%;
+  }
+}
+
+.contact form {
+  margin: 0 auto;
+  padding-bottom: 15px;
+  font-size: 15px;
+  letter-spacing: 0.2rem;
+}
+
+.contact h3 {
+  margin-top: 40px;
+}
+
+.btn {
+  margin: 10px;
+  background-color: grey;
+}
+
+#icons {
+  display: inline-block;
+  padding: 1em;
+  margin: 0 auto;
+}
+
+#Cr {
+  padding: 0;
+  font-size: 0.8em;
+  color: rgba(88, 88, 88, 0.5);
+}
+
+#name {
+  margin-right: 0 auto;
+  padding: auto;
+}
+#iname,
+#ta {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 2px solid grey;
+  background: transparent;
+  width: 100%;
+  height: 1.6em;
+}
